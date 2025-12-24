@@ -91,7 +91,7 @@ REAL_DOMAINS_LIST = ['@gmail.com', '@yahoo.com', '@outlook.com', '@hotmail.com',
 status = {'live': 0, 'cp': 0, 'loop': 0}
 settings = {
     'limit': 1,
-    'password': 'FOUNDER',
+    'password': 'RAZQO',
     'use_temp_email': False,
     'use_real_email': False,
     'gmail_only': False,
@@ -100,7 +100,7 @@ settings = {
 
 SAVE_DIR = Path('/sdcard/FACEBOOKME')
 SAVE_DIR.mkdir(parents=True, exist_ok=True)
-SAVE_FILE = SAVE_DIR / 'fbfreshmu.txt'
+SAVE_FILE = SAVE_DIR / 'hasilakun.txt'
 
 MAX_WORKERS = 6
 DELAY_RANGE = (1.2, 2.5)
@@ -747,3 +747,4 @@ if __name__ == '__main__':
         sys.exit(0)
     except Exception as e:
         console.print(f'[red]Terjadi kesalahan: {e}[/red]')
+)
